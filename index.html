@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="master.css" rel="stylesheet">
+</head>
+<body>  
+
+    <div>
+        <input type="radio" name="tabmenu"id="tab01" checked>
+        <label for="tab01"><img src="img/tit03.png"></label>
+        <input type="radio" name="tabmenu" id="tab02">
+        <label for="tab02"><h6 class="t01">WEB01</h6><h3 class="t02">All my together</h3></label>
+        <input type="radio" name="tabmenu" id="tab03">
+        <label for="tab03"><h6 class="t01">WEB02</h6><h3 class="t02">Ando tadao</h3></label>
+        <input type="radio" name="tabmenu" id="tab04">  
+        <label for="tab04"><h6 class="t01">WEB03</h6><h3 class="t02">FRESH MILK</h3></label>   
+
+        <div class="conbox con1">
+            <div class="w"><img src="img/w01.png"></div>
+            <p class="w w02">Welcome to my site.</p>
+            <p class="w002">0</p>
+            <br>
+            <p class="w w03"><img src="img/im01.png"></p>
+
+
+        </div>  
+    
+        <div class="conbox con2"> 
+            <div class="w"><img src="img/w01.png"></div>
+            <p class="w w02">All my together</p>
+            <p class="w002">1</p>
+            <p class="w w03">a shopping mall website</p>
+            <p class="w w04">쇼핑몰 웹사이트를 디자인하여 코딩을 활용하여 화면으로 나타내었습니다.</p>
+            <br>
+            <a href="https://xodrnwjddns.github.io/All-my-together/"><p class="w w04">"https://xodrnwjddns.github.io/All-my-together/"</p></a>
+            <br><br><br><br><br>
+            <div class="w_01"><img src="img/q01.png"></div>
+            <p class="ww">sub design_01</p> 
+            <div class="w_02"><img src="img/q02.png"></div>    
+            <div class="w_02"><img src="img/q03.png"></div>
+            <div class="w_02"><img src="img/q04.png"></div>
+            <p class="www">Working Demo</p> 
+            <video width="400" controls class="video01">
+                <source src="mov/video1.mp4"> 
+                <source src="mov/video1.ogv"> 
+            </video>  
+            <p class="ww">Tablet & Mobile</p>
+            <div class="w_02"><img src="img/q05.png"></div> 
+        </div>  
+  
+        <div class="conbox con3">
+            <div class="w"><img src="img/w01.png"></div>
+            <p class="w w02">Ando tadao</p>
+            <p class="w002">2</p>
+            <p class="w w03">an esteemed designer website</p>
+            <p class="w w04">안도 다다오의 건축과 디자인 철학을 담은 웹사이트를 제작하였습니다.</p>
+            <br>
+            <a href="https://xodrnwjddns.github.io/ando/"><p class="w w04">"https://xodrnwjddns.github.io/ando/"</p></a>
+            <br><br><br><br><br>
+            <div class="w_01"><img src="img/p01.png"></div>
+            <p class="ww">Serving visual</p>  
+            <div class="w_02"><img src="img/p02.png"></div> 
+            <div class="w_02"><img src="img/p03.png"></div>
+            <div class="w_02"><img src="img/p04.png"></div>
+            <p class="ww">Working Demo</p> 
+            <video width="400" controls class="video01"> 
+                <source src="mov/video2.mp4"> 
+                <source src="mov/video2.ogv"> 
+            </video> 
+        </div>  
+
+        <div class="conbox con4">
+            <div class="w"><img src="img/w01.png"></div>
+            <p class="w w02">FRESH MILK</p>
+            <p class="w002">3</p>
+            <p class="w w03">Milk Package Website</p>
+            <p class="w w04">프레쉬 밀크의 우유 패키지 웹 사이트 입니다.</p>
+            <br>
+            <a href="https://xodrnwjddns.github.io/Fresh-milk/"><p class="w w04">"https://xodrnwjddns.github.io/Fresh-milk/"</p></a>
+            <br><br><br><br><br>
+            <div class="w_01"><img src="img/a01.png"></div>
+            <p class="ww">Serving visual</p>  
+            <div class="w_02"><img src="img/a02.png"></div> 
+            <div class="w_02"><img src="img/a03.png"></div>
+            <div class="w_02"><img src="img/a04.png"></div>
+            <p class="ww">Working Demo</p> 
+            <video width="400" controls class="video01"> 
+                <source src="mov/video3.mp4"> 
+                <source src="mov/video3.ogv"> 
+            </video> 
+
+        </div>  
+    </div>   
+  
+    <style> 
+        input[type="radio"] {display: none; } 
+        input[type="radio"] + label {display: inline-block;padding: 20px; background: #fff;color: #999;font-size: 14px;cursor: pointer;   border: 1px solid #E8E7E7; width: 311px; height: 50px;
+        display: block; }
+        input[type="radio"]:checked + label {background: #fff;color: #6086ED; } 
+
+
+        .conbox {width: 100%;height: 100%;background: #fff;margin: 0 auto;display: none; border: 1px solid #E8E7E7; margin-top: -368px; margin-left: 352px; border: 1px solid #E8E7E7;}
+        input[id="tab01"]:checked ~ .con1 {display:block; height: 900px;} 
+        input[id="tab02"]:checked ~ .con2 {display:block; height: 5000px;}
+        input[id="tab03"]:checked ~ .con3 {display:block; height: 5000px;}
+        input[id="tab04"]:checked ~ .con4 {display:block; height: 5000px;}
+
+        
+
+    </style>  
+    
+    </style>
+</body>
+</html> 
